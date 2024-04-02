@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    color: aliceblue;
+}
+.spacer {
+    height: 90vh;
+
+}
+
+.animated-element {
+    width: 300px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: orangered;
+    box-shadow: 0  4px 8px orange;
+   position: relative;
+    left: -400px;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: .85em;
+    line-height: 1.4em;
+    margin-bottom: 0;
+}

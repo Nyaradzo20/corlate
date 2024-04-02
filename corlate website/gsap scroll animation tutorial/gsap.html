@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=
+    ">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+    <div class="spacer"></div>
+    <div class="spacer">
+        <div class="animated-element">
+            <h2>Animate me</h2>
+            <p>This is a simple a card with a title and a description.It will animate as we scroll </p>
+        </div>
+    </div>
+    <div class="spacer"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+    <script src=" from 'https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1/bundled/lenis.min.js"></script>
+    <script>
+        //gsap animation
+        let tl = gsap.timeline({
+            scrollTrigger: {
+                trigger: '.animated-element',
+                start: '35%  80%',
+                end: 'bottom 20%',
+                scrub: true,
+                markers:true,
+
+            }
+        })
+
+        tl.to('.animated-element', {
+            x: 900
+        })
+
+
+        //smooth scroll
+        const lenis = new Lenis()
+
+        lenis.on('scroll', (e) => {
+            console.log(e)
+        })
+
+        function raf(time) {
+            lenis.raf(time)
+            requestAnimationFrame(raf)
+        }
+
+        requestAnimationFrame(raf)
+    </script>
+</body>
+
+</html>
