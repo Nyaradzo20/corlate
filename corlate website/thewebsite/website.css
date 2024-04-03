@@ -1,0 +1,37 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+header{
+    display: flex;
+    height: 100px;
+    border: 1px solid black;
+    width: 96%;
+    margin-left: 5vh;
+}
+
+.sidebar{
+    height:60px;
+    width: 40px;
+    left:190vh;
+    position: absolute;
+    margin-bottom: 2px;
+}
+
+.hero{
+    display:flex;
+    height:400px;
+    width: 96%;
+    margin-left: 5vh;
+}
+#first{
+    display:flex;
+    border: 1px solid black;
+    height: 400px;
+    width: 96%;
+    margin-left: 5vh;
+}
+footer{
+    height:300px;
+}
