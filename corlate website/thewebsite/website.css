@@ -1,37 +1,165 @@
-*{
-    margin:0;
-    padding:0;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-header{
+body {
+    background-color: rgb(212, 231, 231);
+}
+
+.blue {
+   /* background-color:rgb(11, 11, 68);
+*/
+    /*background-color: rgb(10, 8, 32);
+*/
+}
+
+header {
     display: flex;
     height: 100px;
-    border: 1px solid black;
     width: 96%;
     margin-left: 5vh;
+
 }
 
-.sidebar{
-    height:60px;
+button {
+    width: 200px;
+    height: 60px;
+    border-radius: 40px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    background-color: #ff4f38;
+    /*background-color: #FF683C;*/
+
+
+}
+
+.sidebar {
+    height: 60px;
     width: 40px;
-    left:190vh;
+    left: 190vh;
     position: absolute;
     margin-bottom: 2px;
 }
 
-.hero{
-    display:flex;
-    height:400px;
+.hero {
+    display: flex;
+    height: 500px;
     width: 96%;
     margin-left: 5vh;
+    margin-top: 150px;
 }
-#first{
-    display:flex;
-    border: 1px solid black;
+
+.main-text {
+    width: 50%;
+    color: black;
+    margin-left: 10vh;
+
+}
+
+.text1 {
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 50px;
+    font-style: bold;
+    margin-top: 8vh;
+    margin-left: 12vh;
+}
+
+.button1 {
+    margin-top: 4vh;
+    margin-left: 30vh;
+}
+
+.image1 {
+    width: 400px;
     height: 400px;
+}
+
+.text {
+    font-family: 'Raleway';
+    font-weight: 350;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.text2 {
+
+    font-family: 'Raleway';
+    font-weight: 350;
+    font-size: 30px;
+    font-style: bold;
+    margin-top: 20vh;
+}
+
+.main-image {
+    margin-left: 15vh;
+
+}
+
+.one {
+    height: 200px;
     width: 96%;
     margin-left: 5vh;
+    text-align: center;
+
 }
-footer{
-    height:300px;
+
+hr {
+    border: 1px solid red;
+}
+
+#first {
+
+
+    height: 500px;
+    width: 96%;
+    margin-left: 5vh;
+    text-align: center;
+
+}
+
+.images {
+    width: 55%;
+    display: flex;
+}
+
+.two {
+    width: 100%;
+}
+
+.image {
+    width: 400px;
+    height: 400px;
+}
+
+/*.section-text{
+    width:47%;
+}*/
+.three {
+    margin-left: vh;
+}
+
+.services {
+    display: flex;
+
+}
+
+h4 {
+    margin-right: 25px;
+    margin-left: 10vh;
+    font-family: 'Lora';
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.five {
+    margin-left: 80vh;
+}
+
+
+footer {
+    height: 300px;
+    width: 96%;
+    margin-left: 5vh;
 }
