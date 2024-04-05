@@ -30,22 +30,27 @@ header {}
     border: 1px solid red;
     background-color: transparent;
     cursor: pointer;
-    margin-left: 40vh;
+    margin-left: 37vh;
     height: 55px;
     margin-top: 2vh;
     ;
+    font-size: 16px;
     color: white;
 }
 
 ul {
     display: flex;
     color: white;
-    margin-left: 30%;
+    margin-left: 22%;
+    padding-top: 0;
 }
 
 li {
-    margin-right: 18px;
+    margin-right: 15px;
     list-style: none;
+    border: none;
+    height:29%;
+    border-bottom: 2px white solid;
 }
 
 .hero {
@@ -55,7 +60,7 @@ li {
 
     margin-top: 100px;
     height: 300px;
-    margin-bottom: 15vh;
+    margin-bottom: 25vh;
 
 }
 
@@ -82,7 +87,7 @@ li {
 }
 
 .button2 {
-
+font-size: 16px;
     margin-left: 30vh;
     color: white;
     width: 200px;
@@ -96,7 +101,7 @@ li {
 .main-image {
     width: 500px;
     height: 500px;
-    margin-left: 10vh;
+    margin-left: 15vh;
 
 
 }
