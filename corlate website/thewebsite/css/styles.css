@@ -1,0 +1,314 @@
+body {
+    /*background-color: #010513;*/
+    font-family: 'Raleway';
+    background-color: #031227fb;
+
+
+}
+
+
+.head {
+
+    display: flex;
+
+    height: 100px;
+    width: 96%;
+    margin-left: 4vh;
+}
+
+
+.logo {
+    height: 150px;
+    width: 150px;
+    letter-spacing: 2px;
+}
+
+.button1 {
+    width: 200px;
+    height: 55px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: 1px solid red;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 37vh;
+    height: 55px;
+    margin-top: 2vh;
+    ;
+    font-size: 16px;
+    color: white;
+}
+
+ul {
+    display: flex;
+    color: white;
+    margin-left: 22%;
+    padding-top: 0;
+}
+
+li {
+    margin-right: 15px;
+    list-style: none;
+    border: none;
+    height:29%;
+    border-bottom: 2px ;
+}
+
+.hero {
+    display: flex;
+    width: 96%;
+    margin-left: 4vh;
+
+    margin-top: 100px;
+    height: 300px;
+    margin-bottom: 25vh;
+
+}
+
+.main-text {
+
+    width: 45%;
+    /*background-color: #060f27;*/
+    border-radius: 25px;
+    color: #fff;
+
+
+
+}
+
+.text1 {
+    margin-top: 20vh;
+    text-align: center;
+
+    margin-left: 3vh;
+    font-family: 'Raleway';
+    font-weight: 450;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.button2 {
+font-size: 16px;
+    margin-left: 30vh;
+    color: white;
+    width: 200px;
+    height: 55px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: 2px solid red;
+    background-color: transparent;
+}
+
+.main-image {
+    width: 500px;
+    height: 500px;
+    margin-left: 15vh;
+
+
+}
+
+.explain {
+    width: 96%;
+    margin-left: 4vh;
+    margin-top: 20vh;
+    height: 300px;
+    text-align: center;
+}
+
+.blue {
+    background-color:white;
+    width:100%;
+}
+
+.expl {
+    border: transparent solid 1px;
+}
+
+.exp {
+    font-family: 'Raleway';
+    font-weight: 450;
+    font-size: 25px;
+    font-style: bold;
+    color: #000;
+    margin-top: 18vh;
+}
+
+.our-services {
+    width: 96%;
+
+    color: white;
+    height: 350px;
+    text-align: center;
+}
+
+.services {
+    display: flex;
+}
+
+.text2 {
+    font-family: 'Raleway';
+    font-weight: 450;
+    font-size: 30px;
+    font-style: bold;
+    color:#fff;
+}
+
+h4 {
+    font-family: 'Raleway';
+
+    font-size: 20px;
+    font-style: bold;
+    color: color;
+    margin-right:4px;
+    margin-left: 8vh;
+    font-weight: 350;
+    margin-top: 80px;
+}
+
+.image {
+    width: 350px;
+    height: 350px;
+    margin-right: 25px;
+    margin-left: 8vh;
+}
+
+/*plans*/
+
+.plans {
+    width: 96%;
+    margin-left: 4vh;
+    display: flex;
+    height: 400px;
+    text-align: center;
+    margin-bottom: 12vh;
+}
+
+.price {
+    height: 400px;
+    width: 400px;
+    background-color: #031227d0;
+    margin-right: 45px;
+    margin-left: 5vh;
+    border: 2px solid aqua;
+    border-radius: 15px;
+    color: #fff;
+    font-family: Raleway;
+    font-weight: 350;
+}
+#plans{
+    font-weight: 300;
+    font-family: Raleway;
+}
+
+
+
+
+/*featured projects*/
+
+.featured {
+    width: 96%;
+    margin-left: 4vh;
+
+    height: 500px;
+    text-align: center;
+}
+
+.two {
+    display: flex;
+}
+
+.button3 {
+    width: 200px;
+    height: 55px;
+    border-radius: 32px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    background-color: #ff4f38;
+    margin-top: 0vh;
+}
+
+.text3 {
+    margin-top: 20vh;
+    text-align: center;
+    color: white;
+    margin-left: 3vh;
+    font-family: 'Raleway';
+    font-weight: 350;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.text4 {
+    margin-top: 5vh;
+    text-align: center;
+    color: white;
+    margin-left: 3vh;
+    font-family: 'Raleway';
+    font-weight: 250;
+    font-size: 30px;
+    font-style: bold;
+}
+
+.text5 {
+    margin-top: 5vh;
+    text-align: center;
+    color:black;
+    margin-left: 3vh;
+    font-family: 'Raleway';
+    font-weight: 350;
+    font-size: 30px;
+    font-style: bold;
+}
+
+footer {
+    width: 96%;
+    margin-left: 4vh;
+
+    height: 500px;
+    text-align: center;
+    height: 300px;
+
+}
+
+#input {
+    color: black;
+    background-color: transparent;
+    width: 30%;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(210, 215, 224);
+}
+.serv{
+
+    display:flex;
+   
+}
+#service-logo{
+    width: 70px;
+    height:70px;
+    margin-top: 70px;
+    margin-left:0;
+}
+
+.social {
+    display: flex;
+    color: #030303;
+}
+.socials{
+    width:50% ;
+    
+    margin-right: 180px;
+}
+.contact{
+    width: 50%;
+    
+}
+
+.text6{
+
+margin-right:50px ;
+}
+hr{
+ border: 1px solid red;  
+ width: 100%;
+}
