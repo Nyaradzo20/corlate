@@ -20,17 +20,11 @@
   }
   
   a {
-    text-decoration-line: none;
-    text-decoration-thickness: initial;
-    text-decoration-style: initial;
-    text-decoration-color: initial;
+    text-decoration: none;
   }
   
   .text-blk {
-    margin-top: 0px;
-    margin-right: 0px;
-    margin-bottom: 0px;
-    margin-left: 0px;
+    margin: 0;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
