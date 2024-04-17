@@ -6,210 +6,196 @@ body{
 }
 /*Hi guys...please write a comment if you do decide to delete code or change filenames to avoid confusion-->*/
 
+.head {
+
+  display: flex;
+
+  height: 100px;
+  width: 96%;
+  margin-left: 4vh
+}
+
+
+.logo {
+  height: 100px;
+  width: 100px;
+}
+.button1 {
+  width: 200px;
+  height: 30px;
+  border-radius: 32px;
+  background-color: transparent;
+  border: 1px solid red;
+  background-color: transparent;
+  cursor: pointer;
+  margin-left: 37vh;
+  height: 55px;
+  margin-top: 2vh;
+  ;
+  font-size: 16px;
+  color: white;
+}
+ul {
+  color: white;
+  margin-left: 22%;
+  padding-top: 0;
+}
+.social-list{
+  display: flex;
+  color: white;
+  margin-left: 22%;
+  padding-top: 0;
+}
+
+li {
+  margin-right: 15px;
+  list-style: none;
+  border: none;
+  height:29%;
+  
+}
+.forms{
+  display: flex;
+  margin-left: 7%;
+  
+}
 .form {
-    
-    display: flex;
-   flex-direction: column;
-    gap: 10px;
-    max-width: 400px;
-    padding: 0px;
-    /*border:2px solid cornflowerblue;*/
-    display:470px;
-    position: relative;
-    top:100px;
-    height:500px;
-    border-radius: 20px;
-    left: 500px;
+  /*background-color: #031227fb;*/
+  background: transparent;
+ 
+  box-sizing: border-box;
+  height: 500px;
+  padding: 20px;
+  width:45%;
+  
 
-    
-  }
-  .input{
-    background-color: transparent;
-  }
- /* .message {
-    color:black;
-    font-size: 18px;
-    color: aliceblue;
+  margin-top: 40px;
+}
 
-  }*/
-  
-  .flex {
-    display: flex;
-    width: 100%;
-    gap: 1px;
-  }
-  
-  .form label {
-    position: relative;
+.title {
+  color: #eee;
+  font-family: 'Raleway';
+  font-size: 25px;
+  font-weight: 500;
+  margin-top: 30px;
+}
 
-  }
-  
-  .form label .input {
-    width: 95%;
-    padding: 10px 10px 20px 10px;
-    outline: 0;
-    border: none;
-    border-bottom: 1px solid black;
-  }
-  
-  .form label .input + span {
-    position: absolute;
-    left: 10px;
-    top: 15px;
-    color: #fff;
-    
-    cursor: text;
-    transition: 0.3s ease;
-  }
-  
-  .form label .input:placeholder-shown + span {
-    top: 15px;
-    font-weight: 350;
-    font-size: 17px;
-    font-style: bold;
-  }
-  
-  .form label .input:focus + span,.form label .input:valid + span {
-    top: 30px;
-    font-size: 15px;
-    font-weight: 600;
-  }
-  
-  .form label .input:valid + span {
-    color:cornflowerblue;
-  }
-  
-  .input01 {
-    width: 95%;
-    padding: 10px 10px 20px 10px;
-    outline: 0;
+.subtitle {
+  color: #eee;
+  font-family: 'Raleway';
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 10px;
+}
 
-    border:none;
-    border-bottom: 1px black solid;
-    background-color:transparent ;
-  }
+.input-container {
+  height: 50px;
+  position: relative;
+  width: 100%;
+}
+
+.ic1 {
+  margin-top: 40px;
+}
+
+.ic2 {
+  margin-top: 30px;
+}
+
+.input {
+  background-color:transparent;
+ border: none;
+  border-bottom: 1px solid white;
   
-  .form label .input01 + span {
-    position: absolute;
-    left: 4px;
-    top:50 px;
-    
-    font-size: 0.9em;
-    cursor: text;
-    transition: 0.3s ease;
-  }
+  box-sizing: border-box;
+  font-size: 18px;
+  height: 100%;
+  outline: 0;
+  padding: 4px 20px 0;
+  width: 100%;
+}
+
+.cut {
+  /*background-colo:#15172b;*/
+  border-radius: 10px;
+  height: 20px;
+  left: 20px;
+  position: absolute;
+  top: -20px;
+  transform: translateY(0);
+  transition: transform 200ms;
+  width: 76px;
+}
+
+.cut-short {
+  width: 50px;
+}
+
+.input:focus ~ .cut,
+.input:not(:placeholder-shown) ~ .cut {
+  transform: translateY(8px);
+}
+
+.placeholder {
+  color: red;
+  font-family: sans-serif;
+  left: 20px;
+  line-height: 14px;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: 0 50%;
+  transition: transform 200ms, color 200ms;
+  top: 20px;
+}
+
+.input:focus ~ .placeholder,
+.input:not(:placeholder-shown) ~ .placeholder {
+  transform: translateY(-30px) translateX(10px) scale(0.75);
+}
+
+.input:not(:placeholder-shown) ~ .placeholder {
+  color: #808097;
+}
+
+.input:focus ~ .placeholder {
+  color: yellow;
+  margin-top: 60px;
+}
+
+.submit {
+  background-color:red;
+  border-radius: 12px;
+  border: 0;
+  box-sizing: border-box;
+  color: #eee;
+  cursor: pointer;
+  font-size: 18px;
+  height: 50px;
+  margin-top: 38px;
+  outline: 0;
+  text-align: center;
+  width: 100%;
+}
+
+.submit:active {
+  background-color: #06b;
+}
+.submit:hover{
+  background-color: transparent;
+  border: 1px solid red;
+}
+
+.two{
+  margin-top: 80px;
   
-  .form label .input01:placeholder-shown + span {
-    top: 40px;
-    font-size: 0.9em;
-  }
+}
+.adress{
+  margin-top: 30px;
+}
+a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Raleway';
   
-  .form label .input01:focus + span,.form label .input01:valid + span {
-    top: 50px;
-    font-size: 0.7em;
-    font-weight: 600;
-  }
-  
-  .form label .input01:valid + span {
-    color:aqua;
-  }
-  
-  .fancy {
-    font-size: 16px;
-    margin-left: 15vh;
-    color: white;
-    width: 200px;
-    height: 55px;
-    background-color: transparent;
-    border: 2px solid red;
-    background-color: transparent;
-    text-align: center;
-    text-decoration: none;
-    text-transform: none;
-    transition: all 0.3s ease-in-out;
-    user-select: none;
-    font-size: 13px;
-  }
-  
-  .fancy::before {
-    content: " ";
-    width: 1.7rem;
-    height: 2px;
-    background: #355891;
-    top: 50%;
-    left: 1.5em;
-    position: absolute;
-    transform: translateY(-50%);
-    transform: translateX(230%);
-    transform-origin: center;
-    transition: background 0.3s linear, width 0.3s linear;
-  }
-  
-  .fancy .text {
-    font-size: 1.125em;
-    line-height: 1.33333em;
-    padding-left: 2em;
-    display: block;
-    text-align: left;
-    transition: all 0.3s ease-in-out;
-    text-transform: lowercase;
-    text-decoration: none;
-    color: #355891;
-    transform: translateX(30%);
-  }
-  
-  .fancy .top-key {
-    height: 2px;
-    width: 1.5625rem;
-    top: -2px;
-    left: 0.625rem;
-    position: absolute;
-    background: #355891;
-    transition: width 0.5s ease-out, left 0.3s ease-out;
-  }
-  
-  .fancy .bottom-key-1 {
-    height: 2px;
-    width: 1.5625rem;
-    right: 1.875rem;
-    bottom: -2px;
-    position: absolute;
-    background: #355891;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
-  }
-  
-  .fancy .bottom-key-2 {
-    height: 2px;
-    width: 0.625rem;
-    right: 0.625rem;
-    bottom: -2px;
-    position: absolute;
-    background: #355891;
-    transition: width 0.5s ease-out, right 0.3s ease-out;
-  }
-  
-  .fancy:hover {
-    color: #355891;
-    background: #5f82a9;
-  }
-  
-  .fancy:hover::before {
-    width: 1.5rem;
-    background: #355891;
-  }
-  
-  .fancy:hover .text {
-    color: white;
-    padding-left: 1.5em;
-  }
-  
-  .fancy:hover .top-key {
-    left: -2px;
-    width: 0px;
-  }
-  
-  .fancy:hover .bottom-key-1,
-   .fancy:hover .bottom-key-2 {
-    right: 0;
-    width: 0;
-  }
+
+}

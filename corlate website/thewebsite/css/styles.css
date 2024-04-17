@@ -291,8 +291,8 @@ footer {
 
 .social {
     display: flex;
-    color: #030303;
-    margin-left: 
+    color: hsl(0, 0%, 1%);
+
 }
 .socials{
     width:50% ;
