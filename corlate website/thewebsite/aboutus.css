@@ -3,27 +3,48 @@
     
   }
 body{
-    background:#000;
+  font-family:"Raleway";
+  background-color: #031227fb;
+  color: white;
+
 
 }
+.x{
+  display: flex;
   
-  .responsive-container-block {
+
+  
+}
+.fa-bars{
+  margin-left: 85%;
+  font-size: 25px;
+  color: white;
+  margin-top: 4vh;
+}
+.logo {
+  height: 100px;
+  width: 100px;
+}
+  .outer{
+    margin-top: 0%;
+  }
+  /*.responsive-container-block {
+    border: 1px solid red;
     min-height: 75px;
     height: fit-content;
-    width: 100%;
+    width: 96%;
     padding-top: 10px;
     padding-right: 10px;
     padding-bottom: 10px;
     padding-left: 10px;
     display: flex;
     flex-wrap: wrap;
-    margin-top: 0px;
+    
     margin-right: auto;
-    margin-bottom: 0px;
     margin-left: auto;
     justify-content: flex-start;
   }
-  
+  */
   a {
     text-decoration: none;
   }
@@ -85,7 +106,8 @@ body{
     margin-left: 0px;
   }
   
-  .text-blk.subHeadingText {color:#031227fb;
+  .text-blk.subHeadingText {
+    color:#fff;
     font-size: 26px;
     line-height: 32px;
     font-weight: 700;
@@ -102,7 +124,7 @@ body{
   .text-blk.description {
     font-size: 18px;
     line-height: 26px;
-    color:#031227fb ;
+    
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 50px;
@@ -120,6 +142,7 @@ body{
     color: #031227fb;
     border:1px solid red;
     cursor: pointer;
+    border-radius: 5px;
     background-color:white;
     padding-top: 8px;
     padding-right: 40px;
@@ -149,11 +172,10 @@ body{
   
   .responsive-container-block.Container.bottomContainer {
     flex-direction: row-reverse;
-    margin-top: 80px;
+    display: flex;
     margin-right: auto;
-    margin-bottom: 50px;
     margin-left: auto;
-    position: static;
+  
   }
   
   .allText.aboveText {
@@ -195,7 +217,7 @@ body{
   .purpleText {
     font-size: 18px;
     line-height: 26px;
-    color: white;
+    color:rgb(12, 180, 12);
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 10px;
