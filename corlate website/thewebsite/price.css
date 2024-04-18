@@ -1,11 +1,19 @@
 body{
     font-family:"Raleway";
-    background-color: #031227fb;
-    color: white;
+    
+    background-color:#011229;
+
+    color: aliceblue;
 
 }
 /*Hi guys...please write a comment if you do decide to delete code or change filenames to avoid confusion-->*/
 
+.fa-bars{
+  margin-left: 85%;
+  font-size: 25px;
+  color: white;
+  margin-top: 4vh;
+}
 .head {
 
   display: flex;
@@ -14,69 +22,34 @@ body{
   width: 96%;
   margin-left: 4vh
 }
-
+.x{
+  display: flex;
+}
 
 .logo {
   height: 100px;
   width: 100px;
+  position: sticky;
 }
-body{
-    font-family:"Raleway";
-    background-color: #031227fb;
-    color: white;
-
-}
-.button1 {
-    width: 200px;
-    height: 30px;
-    border-radius: 32px;
-    background-color: transparent;
-    border: 1px solid red;
-    background-color: transparent;
-    cursor: pointer;
-    margin-left: 37vh;
-    height: 55px;
-    margin-top: 2vh;
-    ;
-    font-size: 16px;
-    color: white;
-  }
-  ul {
-    color: white;
-    margin-left: 22%;
-    padding-top: 0;
-  }
-  .social-list{
-    display: flex;
-    color: white;
-    margin-left: 22%;
-    padding-top: 0;
-  }
-  li {
-    margin-right: 15px;
-    list-style: none;
-    border: none;
-    height:29%;
-    
-  }
+        
   .plans {
     width: 96%;
     margin-left: 4vh;
     display: flex;
     height: 400px;
     text-align: center;
-    margin-top: 16vh;
+    margin-bottom: 4vh;
 }
 
 .price {
     height: 400px;
     width: 400px;
-    background-color: #031227d0;
+    background-color:#011229;
     margin-right: 45px;
     margin-left: 5vh;
     border: 2px solid aqua;
     border-radius: 15px;
-    color: #fff;
+    margin-top: 100px;
     font-family: Raleway;
     font-weight: 350;
 }
@@ -85,7 +58,7 @@ body{
     font-family: Raleway;
 }
 .pricebtn{
-    color:white;
+    
     width:120px;
     height: 40px;
     background-color: red;

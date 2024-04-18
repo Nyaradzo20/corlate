@@ -14,46 +14,21 @@ body{
   width: 96%;
   margin-left: 4vh
 }
-
-
+.x{
+  display: flex;
+}
+.fa-bars{
+  margin-left: 85%;
+  font-size: 25px;
+  color: white;
+  margin-top: 4vh;
+}
 .logo {
   height: 100px;
   width: 100px;
 }
-.button1 {
-  width: 200px;
-  height: 30px;
-  border-radius: 32px;
-  background-color: transparent;
-  border: 1px solid red;
-  background-color: transparent;
-  cursor: pointer;
-  margin-left: 37vh;
-  height: 55px;
-  margin-top: 2vh;
-  ;
-  font-size: 16px;
-  color: white;
-}
-ul {
-  color: white;
-  margin-left: 22%;
-  padding-top: 0;
-}
-.social-list{
-  display: flex;
-  color: white;
-  margin-left: 22%;
-  padding-top: 0;
-}
 
-li {
-  margin-right: 15px;
-  list-style: none;
-  border: none;
-  height:29%;
   
-}
 .forms{
   display: flex;
   margin-left: 7%;
@@ -68,10 +43,13 @@ li {
   padding: 20px;
   width:45%;
   
-
+margin-left:10% ;
   margin-top: 40px;
 }
-
+.links{
+  margin-left: 150px;
+  margin-top: 50px;
+}
 .title {
   color: #eee;
   font-family: 'Raleway';
