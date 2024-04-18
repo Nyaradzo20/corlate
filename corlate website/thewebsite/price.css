@@ -7,13 +7,41 @@ body{
 
 }
 /*Hi guys...please write a comment if you do decide to delete code or change filenames to avoid confusion-->*/
-
+.dropdown{
+  background-color:whitesmoke ;
+  height: 640px;
+  display: none;
+}
+.link{
+  margin-left: 9%;
+  line-height: 70px;
+  font-size: 21px;
+  
+}
 .fa-bars{
   margin-left: 85%;
   font-size: 25px;
   color: white;
   margin-top: 4vh;
 }
+
+.link li{
+  list-style: none;
+}
+
+.link a{
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color:rgb(224, 9, 9);
+}
+.fa-x{
+  margin-top: 4vh;
+  margin-left: 93%;
+  font-size: 25px;
+  color:black;
+}
+
 .head {
 
   display: flex;

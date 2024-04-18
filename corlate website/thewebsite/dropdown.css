@@ -8,11 +8,11 @@
     margin-left: 90%;
     font-size: 25px;
 }
-li{
+.link li{
     list-style: none;
 }
 
-a{
+.link a{
     text-decoration: none;
     font-family: 'Raleway';
     font-weight: 400;
