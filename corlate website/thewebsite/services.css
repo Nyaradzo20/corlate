@@ -1,0 +1,54 @@
+body{
+    background-color:#011222;
+}
+
+
+h1{
+    font-size: 50px;
+    margin-top: 10px;
+    padding: 5px;
+    text-align: center;
+    color: yellow;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    display:flex
+
+}
+.service{
+    text-align: center;
+    font-weight: 1000;
+}
+
+.service_serv {
+    height: 600x;
+    width: 500px;
+    margin-right: 45px;
+    margin-left: 5vh;
+    border: 2px solid yellow;
+    border-radius: 15px;
+    margin-top: 100px;
+    font-family: Raleway;
+    font-weight: 350;
+    color: yellow;
+    text-align: center;
+}
+.services-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust this according to your layout preference */
+}
+.service-image{
+    height: 200px;
+    width: 400px;
+    padding: 10px;
+}
+.serv{
+    font-weight: 1000;
+    text-decoration: underline;
+    font-family: Raleway;
+}
