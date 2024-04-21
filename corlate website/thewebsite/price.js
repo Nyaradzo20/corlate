@@ -12,7 +12,7 @@ bar.addEventListener('click', ()=>{
   //dropdown to appear
   dropdown.style.display ="block";
   
- body.style.background = "white" ;
+ body.style.background = "black" ;
   //logo
   logo.style.display ="none";
 //price plans
@@ -34,7 +34,7 @@ exit.addEventListener('click', ()=>{
 
   plans.style.display ="flex";
 
-  
+  body.style.background = "#011229";
 
 
   });

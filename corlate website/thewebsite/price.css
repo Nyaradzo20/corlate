@@ -7,14 +7,15 @@ body{
 }
 /*Hi guys...please write a comment if you do decide to delete code or change filenames to avoid confusion-->*/
 .dropdown{
-  background-color:white ;
+  background-color:black ;
   height: 640px;
   display: none;
 }
 .link{
   margin-left: 9%;
-  line-height: 70px;
-  font-size: 21px;
+  line-height: 80px;
+  font-size: 28px;
+  display: flex;
   
 }
 .fa-bars{
@@ -23,22 +24,51 @@ body{
   color: white;
   margin-top: 4vh;
 }
+.link .follow{
+color:rgb(224, 9, 9);
+margin-left: 450px;
+line-height:40px;
+margin-top: 70px;
+}
 
 .link li{
   list-style: none;
 }
-
+.link .follow a {
+  margin-left: 10px;
+  color:aliceblue
+}
 .link a{
   text-decoration: none;
   font-family: 'Raleway';
   font-weight: 400;
-  color:rgb(224, 9, 9);
+  /*color:rgb(224, 9, 9);
+  */color: aqua;
+
 }
+.link a:hover{
+  color: aliceblue;
+  border-bottom: 2px solid rgb(224, 9, 9);
+}
+.follow a:hover{
+  color:red;
+  border:none;
+}
+
+
 .fa-x{
   margin-top: 4vh;
-  margin-left: 93%;
+  margin-left: 85%;
   font-size: 25px;
-  color:black;
+  color:white;
+
+
+}
+.fa-x:hover{
+  color: red;
+}
+.link ul{
+  display: flex;
 }
 
 .head {
