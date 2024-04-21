@@ -50,7 +50,12 @@ li {
     list-style: none;
     border: none;
     height:29%;
-    border-bottom: 2px white solid;
+    
+}
+ul li a{
+    color:white;
+    text-decoration:none ;
+    font-weight: 500;
 }
 
 .hero {
@@ -169,6 +174,7 @@ h4 {
     height: 350px;
     margin-right: 25px;
     margin-left: 8vh;
+    border: 5px solid;
 }
 
 /*plans*/
@@ -214,6 +220,7 @@ h4 {
 
 .two {
     display: flex;
+    
 }
 
 .button3 {
@@ -291,14 +298,22 @@ footer {
 
 .social {
     display: flex;
-    color: hsl(0, 0%, 1%);
+    color:rgb(224, 9, 9);
 
 }
 .socials{
     width:50% ;
-    
+    color:rgb(224, 9, 9);
     margin-right: 180px;
 }
+.socials li a {
+    color:black;
+    margin-right: 25px;
+}
+
+.socials li a {
+
+    
 .contact{
     width: 50%;
     

@@ -4,7 +4,7 @@ let body = document.querySelector('body');
 let logo = document.querySelector('.x');
 let links = document.querySelector('.links');
 let form = document.querySelector('.form');
-let link = document.querySelector('.link');
+//let link = document.querySelector('.link');
 
 
 bar.addEventListener('click', ()=>{
@@ -37,7 +37,7 @@ exit.addEventListener('click', ()=>{
 
  body.style.background =" #011229";
 
- //links.style.display = "block";
+ links.style.display = "block";
 
 
   });
