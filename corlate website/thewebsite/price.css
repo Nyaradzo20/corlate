@@ -36,7 +36,8 @@ margin-top: 70px;
 }
 .link .follow a {
   margin-left: 10px;
-  color:aliceblue
+  color:aliceblue;
+  text-decoration: none;
 }
 .link a{
   text-decoration: none;

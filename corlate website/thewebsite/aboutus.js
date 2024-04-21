@@ -10,7 +10,7 @@ bar.addEventListener('click', ()=>{
     //dropdown to appear
     dropdown.style.display ="block";
     
-   body.style.background = "white" ;
+   body.style.background = "black" ;
     //logo
     logo.style.display ="none";
   

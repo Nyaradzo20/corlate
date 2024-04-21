@@ -2,20 +2,25 @@ let bar = document.querySelector('#bar');
 let dropdown = document.querySelector('#dropdwn');
 let body = document.querySelector('body');
 let logo = document.querySelector('.x');
-let links = document.querySelector('.adress');
+let links = document.querySelector('.links');
 let form = document.querySelector('.form');
+let link = document.querySelector('.link');
 
 
 bar.addEventListener('click', ()=>{
   //dropdown to appear
   dropdown.style.display ="block";
   
- body.style.background = "white" ;
+ body.style.background = "black" ;
+
+ //link.style.display ="none";
   //logo
   logo.style.display ="none";
 
   //
   form.style.display ="none";
+
+  links.style.display ="none";
 
  
 });

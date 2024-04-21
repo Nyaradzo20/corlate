@@ -9,25 +9,31 @@ body{
 
 
 }
-.fa-x{
-  margin-top: 4vh;
-  margin-left: 93%;
-  font-size: 25px;
-  color:black;
+
+.media{
+  
+  margin-top: 80px;
+  letter-spacing: 5px;
+
+
 }
 
 .x{
   display: flex;
   }
+
 .dropdown{
-  background-color:white ;
+  background-color:black ;
   height: 640px;
   display: none;
 }
 .link{
-  margin-left: 9%;
+  margin-left:9%;
   line-height: 70px;
-  font-size: 21px;
+  font-size: 28px;
+  display: flex;
+  
+  margin-bottom: 150px;
 }
 .link li{
   list-style: none;
@@ -37,11 +43,40 @@ body{
   text-decoration: none;
   font-family: 'Raleway';
   font-weight: 400;
-  color:rgb(224, 9, 9);
+  color:aqua;
 }
-
-
-.fa-bars{
+.link .media{
+  color:rgb(224, 9, 9);
+  margin-left: 300px;
+  line-height:40px;
+  
+  }
+  .link .media a {
+    margin-left: 10px;
+    color:aliceblue;
+    text-decoration: none;
+  }
+  .link a:hover{
+    color: aliceblue;
+    border-bottom: 4px solid rgb(224, 9, 9);
+  }
+  .media a:hover{
+    color:red;
+    border:none;
+  }
+  .fa-x{
+    margin-top: 4vh;
+    margin-left: 83%;
+    font-size: 25px;
+    color:white;
+  
+  
+  }
+  .fa-x:hover{
+    color: red;
+  }
+  
+  .fa-bars{
   margin-left: 85%;
   font-size: 25px;
   color: white;
