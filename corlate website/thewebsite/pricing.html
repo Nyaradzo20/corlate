@@ -17,9 +17,9 @@
     <div class="x">   
          <img src="images/Corlate__1_-removebg-preview.png" alt="" class="logo">
 
-        <i class="fa-solid fa-bars"></i></div>
+        <i class="fa-solid fa-bars" id="bar"></i></div>
 
-        <div class="dropdown">
+        <div class="dropdown" id="dropdwn">
             <div class="x">
                 <i class="fa-solid fa-x"></i></div>
             <div class="link">
@@ -42,6 +42,7 @@
             </ul>
             </div>
         </div>
+    </div>
     
 <div class="plans">
         
@@ -61,9 +62,21 @@
         <div class="price"><h1>PERSONAL</h1>
             <h1>$39.99</h1>
             <h2 id="plans">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam dolorum totam mollitia dignissimos.</h2>
-            <button class="pricebtn">Buy now</button>
+            <button class="pricebtn" onclick="showDiv()">Buy now</button>
         </div>
      </div>
-     
+     <script src="price.js">
+        //function showDiv() {
+         // document.getElementById('dropdwn').style.display = "block";
+       // } 
+
+        /*const bar = document.querySelector('#bar');
+         const dropdown = document.querySelector('#dropdwn');
+          
+         bar.addEventListener('click',() =>
+         {
+           console.log('I work');
+        });*/
+         </script>
      </body>
       </html>

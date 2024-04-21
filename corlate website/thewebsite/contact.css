@@ -1,7 +1,7 @@
 body{
     font-family:"Raleway";
-    background-color: #031227fb;
-    color: white;
+    background-color: #011229;
+    
 
 }
 /*Hi guys...please write a comment if you do decide to delete code or change filenames to avoid confusion-->*/
@@ -23,6 +23,33 @@ body{
   color: white;
   margin-top: 4vh;
 }
+.dropdown{
+  background-color:white;
+  height: 640px;
+  display: none;
+}
+.link{
+  margin-left: 9%;
+  line-height: 70px;
+  font-size: 21px;
+  
+}
+.link li{
+  list-style: none;
+}
+
+.link a{
+  text-decoration: none;
+  font-family: 'Raleway';
+  font-weight: 400;
+  color:rgb(224, 9, 9);
+}
+.fa-x{
+  margin-top: 4vh;
+  margin-left: 93%;
+  font-size: 25px;
+  color:black;
+}
 .logo {
   height: 100px;
   width: 100px;
@@ -36,8 +63,8 @@ body{
 }
 .form {
   /*background-color: #031227fb;*/
-  background: transparent;
- 
+  
+ display: block;
   box-sizing: border-box;
   height: 500px;
   padding: 20px;
