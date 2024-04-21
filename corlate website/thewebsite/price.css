@@ -48,7 +48,7 @@ margin-top: 70px;
 }
 .link a:hover{
   color: aliceblue;
-  border-bottom: 2px solid rgb(224, 9, 9);
+  border-bottom: 4px solid rgb(224, 9, 9);
 }
 .follow a:hover{
   color:red;
